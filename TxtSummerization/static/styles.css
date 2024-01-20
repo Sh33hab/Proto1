@@ -1,0 +1,68 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #39658e, #452461);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite; /* Adjust the duration as needed */
+    color: white;
+}
+.original_title{
+    background: linear-gradient(to right, #c3df29, #4b17c5);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite; /* Adjust the duration as needed */
+    color: white;
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 30px;
+}
+.summary_title{
+    background: linear-gradient(to right, #0c0c57, #0bcf5c);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite; /* Adjust the duration as needed */
+    color: white;
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.srt {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Example styling for the items inside the flex container */
+
+
+
+.originalTxt{
+    background: linear-gradient(to right, #bfe77e, #e5deeb);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite; /* Adjust the duration as needed */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-right: 30px
+}
+.summaryTxt{
+    background: linear-gradient(to right, #b799c9, #71b28e);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s linear infinite; /* Adjust the duration as needed */
+    color: rgb(1, 0, 3);
+    padding: 20px;
+
+}
+
